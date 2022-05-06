@@ -38,6 +38,12 @@ class Home_State extends State<Home> {
 
   Widget Mybox(
       String title, String subtitle, String nationality, String img_url) {
+    var v1, v2, v3, v4;
+    v1 = title;
+    v2 = subtitle;
+    v3 = nationality;
+    v4 = img_url;
+
     return Container(
       margin: EdgeInsets.only(top: 20),
       padding: EdgeInsets.all(20),
@@ -68,7 +74,7 @@ class Home_State extends State<Home> {
             SizedBox(
               height: 3,
             ),
-            Text(subtitle, style: TextStyle(fontSize: 14,color: Colors.white)),
+            Text(subtitle, style: TextStyle(fontSize: 14, color: Colors.white)),
             SizedBox(
               height: 14,
             ),
@@ -76,7 +82,7 @@ class Home_State extends State<Home> {
                 onPressed: () {
                   print("next page >>");
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Detaill()));
+                      MaterialPageRoute(builder: (context) => Detaill(v1,v2,v3,v4)));
                 },
                 child: Text("read more"))
           ]),
