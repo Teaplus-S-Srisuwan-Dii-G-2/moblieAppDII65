@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Claude Monet",
+        "subtitle": "1840 - 1926",
+        "nationality":"French",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSWBmomV8V_XuNPySDODmYjEyMJBh9QwI6w&usqp=CAU"
+        
+    },
+    {
+        "title": "Pierre-Auguste Renoir",
+        "subtitle": "1840 - 1926",
+        "nationality":"French",
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg/800px-Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg"
+        
+    },
+    {
+        "title": "Édouard Manet",
+        "subtitle": "1832 - 1883",
+        "nationality":"France",
+        "image_url": "https://uploads0.wikiart.org/images/edouard-manet/the-grand-canal-of-venice-blue-venice-1874.jpg!Large.jpg"
+        
+    }
+]
